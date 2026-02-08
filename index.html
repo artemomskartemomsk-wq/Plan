@@ -4,21 +4,26 @@
   <meta charset="UTF-8">
   <meta name="google" content="notranslate">
   <title>План расходов</title>
-  <!-- Базовые иконки -->
+  <!-- Основные favicon (для браузеров) -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png"> <!-- если есть 32x32, добавь -->
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png"> <!-- если есть -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"> <!-- SVG для современных браузеров -->
 
-  <!-- Apple Touch Icon (для iOS, добавление на домашний экран) -->
+  <!-- Apple Touch Icon (для iOS добавление на экран) -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <!-- Android Chrome и PWA -->
-  <link rel="manifest" href="/site.webmanifest">  <!-- или /manifest.json, если не менял имя -->
+  <!-- Android / PWA иконки -->
+  <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" type="image/png">
 
-  <!-- Цвет темы (важно для splash screen и адресной строки) -->
+  <!-- Web App Manifest (важно для PWA и checker) -->
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Цвета темы (для адресной строки и splash screen) -->
   <meta name="theme-color" content="#0f172a">
 
-  <!-- Отключаем перевод (чтобы Google Translate не предлагал перевести на русский) -->
+  <!-- Отключаем предложение перевода Google Translate -->
   <meta name="google" content="notranslate">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
