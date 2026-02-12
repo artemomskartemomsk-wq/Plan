@@ -1,12 +1,12 @@
 const CACHE_NAME = 'expenses-pwa-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/icon16.png',
-  '/icon48.png',
-  '/icon128.png'
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './icon16.png',
+  './icon48.png',
+  './icon128.png'
 ];
 
 self.addEventListener('install', event => {
